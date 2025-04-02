@@ -1,0 +1,94 @@
+* {
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+   
+}
+
+.header{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+}
+
+.header input{
+    height: 30px;
+    width: 400px;
+}
+h1{
+    color: rgb(255, 255, 255);
+}
+
+.menu{
+    display: flex;
+    gap: 15px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none; 
+}
+
+.menu a:hover {
+    transform: scale(1.05);
+}
+
+.banner{
+    width: 83%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    margin: 20px auto;
+}
+
+.banner img{
+    height:auto;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0px;
+    margin: ;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid ;color: rgb(11, 58, 42);
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 2px 4px 10px rgb(27, 27, 27);
+    transition: transform 0.3 ease, box-shadown 0.3s ease;
+}
+
+.card img{
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 4px 4px 15px var();
+}
+
+.vitrine{
+    display: flex;
+    justify-content: space-around;
+}
