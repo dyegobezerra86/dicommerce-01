@@ -71,6 +71,12 @@ h1{
     transform: translateY(-50%);
 }
 
+.hamburguer{
+    display: none;
+    margin-left: 20px;
+
+}
+
 footer{
     background-color: black;
     color: white;
@@ -85,7 +91,7 @@ footer{
     padding: 10px;
     text-align: center;
     border-radius: 5px;
-    background-color: #f7d2d2;
+    background-color: #f3f3ff;
     box-shadow: 2px 4px 10px rgb(27, 27, 27);
     transition: transform 0.3 ease, box-shadown 0.3s ease;
 }
@@ -130,4 +136,19 @@ footer{
 }
 .dropdown:hover .dropdown-content{
     display: block;
+}
+
+@media screen and (max-width: 680px) {
+    .menu {
+      /*  display: none; */
+        flex-direction: column;
+        background-color: antiquewhite;
+        padding: 10px;
+        position: absolute;
+        left: 536px;
+
+    }
+   /* .hamburguer{
+        display: block;
+    }/*
 }
