@@ -138,6 +138,14 @@ footer{
     display: block;
 }
 
+.rel{
+    height: 80px;
+}
+
+.container {
+    display: flex;
+}
+
 @media screen and (max-width: 680px) {
     .menu {
       /*  display: none; */
@@ -148,6 +156,8 @@ footer{
         left: 536px;
 
     }
+
+  
    /* .hamburguer{
         display: block;
     }/*
