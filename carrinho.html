@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho</title>
+    <link rel="shortcut icon" href="carrinho.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="carrinho.css">
@@ -11,56 +12,54 @@
   <body>
     <header>
         <div class="header">
-            <h1>D-Clock Store</h1>
-            <h1>Carrinho</h1>
-                <div class="hamburguer">
-                    <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
-                </div>
-            <div class="menu">
-                <a href="">Home</a>
-                <a href="produtos.html" target="_blank">Produtos</a>
-                <div class="dropdown">
-                    <a href="">Categorias</a>
-                    <div class="dropdown-content">
-                        <a href="">Masculino</a>
-                        <a href="">Feminino</a>
-                        <a href="">Infantil</a>
-                    </div>
-                </div>
-            </div>
+          <h1>Carrinho</h1>
+            <img src="carrinho.png" alt="" style="filter: invert(1); height: 25px; ">
+              <div class="hamburguer">
+                <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+              </div>
         </div>
+        <nav class="menu">
+          <div class="dropdown">
+            <a href="">Retornar</a>
+              <div class="dropdown-content">
+                <a href="">Início</a>
+                <a href="">Produtos</a>
+                <a href="">Atendimento</a>
+              </div>
+          </div>     
+        </nav>
     </header>
       <div class="container1">
-        <table class="table">
-            <thead>
-                <th>Imagem</th>
-                <th>Nome</th>
-                <th>Quantidade</th>
-            </thead>
-            <tbody>
+        <table>
+          <thead>
+              <th>Produto</th>
+              <th>Nome</th>
+              <th>Quantidade</th>
+          </thead>
+          <tbody>
               <tr>
-                <td><img class="rel" src="relogio1.webp" alt=""></td>
-                <td>Relógio 1</td>
-                <td>
-                    <input class="rel" type="number" value="4">
-                </td>
+              <td><img class="rel" src="relogio1.webp" alt=""></td>
+              <td>Relógio 1</td>
+              <td class="td">
+                    <input class="rel2" type="number" value="0" min="0">
+              </td>
               </tr>
               <tr>
                 <td><img class="rel" src="relogio2.webp" alt=""></td>
                 <td>Relógio 2</td>
-                <td>
-                    <input class="rel" type="number" value="4">
+                <td class="td">
+                    <input class="rel2" type="number" value="0" min="0">
                 </td>
               </tr>
               <tr>
                 <td><img class="rel" src="relogio3.webp" alt=""></td>
                 <td>Relógio 3</td>
-                <td>
-                    <input class="rel" type="number" value="4">
+                <td class="td">
+                    <input class="rel2" type="number" value="0" min="0">
                 </td>
               </tr>
             </tbody>
-          </table>
+        </table>
       </div>
     <div class="container2">
         <div class="container3">
